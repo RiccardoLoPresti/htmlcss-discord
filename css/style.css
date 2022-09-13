@@ -9,6 +9,12 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
 h3{
   padding-top:20px;
   padding-bottom: 20px;
@@ -22,23 +28,37 @@ h3{
 }
 
 .jumbo{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  max-width: 894px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+
 }
 
 /* BUTTON */
 .btn{
-  padding: 10px;
+  padding: 11px 15px;
   border-radius: 20px;
   border: none;
   font-weight: bold;
-  width: 70px;
 }
 
 .clear{
   background-color: #ffffff;
+}
+
+.dark{
+  background-color: #23272a;
+  color: #ffffff;
+}
+
+.btn-bigger{
+  font-size: 1.3rem;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  font-weight:400;
 }
 
 /* HEADER */
@@ -83,15 +103,28 @@ nav.menu ul li a:hover{
 
 
 /* MAIN */
-main section.jumbotron{
-  height: 550px;
-  background-color: #3161e0;
+main .jumbotron{
+  background-image: url(../img/jumbo.png);
+  height: 560px;
+  background-size: cover;
+  background-position: 0 -58px;
+  padding-top: 60px;
 }
 
-main section.jumbotron h1,
-main section.jumbotron p{
+main .jumbo p{
+  font-size: 1.4rem;
+  line-height: 35px;
+  padding-bottom: 20px;
   color: #ffffff;
-  padding-top:10px;
+}
+
+main .btn-bigger.clear{
+  margin-right: 20px;
+}
+
+main .btn-bigger.clear i{
+  font-size: 1rem;
+  padding-right: 10px;
 }
 
 /* WHITE ROW */
