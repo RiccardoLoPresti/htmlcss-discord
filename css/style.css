@@ -30,6 +30,10 @@ h3{
   color: #23272a;
 }
 
+h4{
+  padding-top:40px;
+}
+
 p{
   font-size: 1.45rem;
   padding-top: 20px;
@@ -49,7 +53,11 @@ p{
   margin: 0 auto;
   text-align: center;
   padding-top: 50px;
+}
 
+.debug{
+  background-color: rgba(0, 255, 255, 0.253);
+  border: 1px solid black;
 }
 
 /* BUTTON */
@@ -234,30 +242,72 @@ main .last .star h3{
 }
 /* FOOTER */
 footer{
-  background-color: rgb(19, 19, 19);/*DA CAMBIARE*/
+  background-color: #23272a;
   color: #ffffff;
 }
 
 /* FOOTER TOP */
 footer .top{
-  height: 350px; /*DA TOGLIERE*/
   display: flex;
+  align-content: flex-start ;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+footer .top h2,
+footer .top h4{
+  color: #7289da;
+}
+
+footer .top h2{
+  font-size: 2rem;
 }
 
 footer .top .footer-col{
   display: flex;
   flex-direction: column;
-  flex-basis: 40%;
-  align-content: space-between;
-  justify-content: flex-start;
+  flex-basis: 10%;
 }
 
-footer .top .footer-col .first{
-  flex-basis: 60%;
+footer .top .footer-col.first{
+  flex-basis: 30%;
+}
+
+footer .top .language{
+  padding-top: 20px;
+}
+
+footer .top .language img{
+  width:25px;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+footer .top .language i{
+  font-size: 10px;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+footer .top .social{
+  padding-top: 20px;
+}
+
+footer .top .social ul{
+  display: flex;
+  gap: 30px;
+}
+
+footer .top .social ul li a i{
+  font-size: 1.3rem;
 }
 
 footer .top .footer-col ul{
   list-style: none;
+}
+
+footer .top .footer-col ul li{
+  padding: 10px 0px;
 }
 
 footer .top .footer-col ul li a{
@@ -265,11 +315,16 @@ footer .top .footer-col ul li a{
   color: #ffffff;
 }
 
+footer .top .footer-col ul li a:hover{
+  text-decoration: underline;
+}
+
 /* FOOTER BOTTOM */
 footer .bottom{
   height: 80px;/*DA CAMBIARE*/
-  border-top: 1px  solid lightblue;/*DA CAMBIARE*/
-  padding-top: 20px;
+  border-top: 1px  solid #7289da;/*DA CAMBIARE*/
+  padding-top: 40px;
+  padding-bottom: 100px;
 }
 
 footer .bottom .logo-btn{
