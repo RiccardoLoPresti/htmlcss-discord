@@ -162,6 +162,7 @@ main .jumbo p{
   font-size: 1.4rem;
   padding-bottom: 20px;
   color: #ffffff;
+  text-align: center;
 }
 
 main .btn-bigger.clear{
