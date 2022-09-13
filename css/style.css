@@ -19,6 +19,7 @@ h2{
   font-size: 2.8rem;
   padding-top: 30px;
   font-weight: 800;
+  color: #23272a;
 }
 
 h3{
@@ -113,8 +114,8 @@ main .jumbotron{
   background-image: url(../img/jumbo.png);
   height: 560px;
   background-size: cover;
-  background-position: 0 -58px;
-  padding-top: 60px;
+  background-position: center;
+  padding-top: 70px;
 }
 
 main .jumbo p{
@@ -144,46 +145,42 @@ main .white-row{
   padding: 100px 0;
 }
 
-main .left-col-white{
+main .immage{
   display: flex;
   width: 60%;
 }
 
-main .rigth-col-white{
+main .text{
   width: 40%;
   display: flex;
   flex-direction: column;
-  margin-left: 105px;
 }
 
-main .rigth-col-white p{
+main .text p{
   font-size: 1.5rem;
   padding-top: 20px;
   line-height: 35px;
+  color: #23272a;
+}
+
+main .text.right{
+  margin-left: 105px;
+}
+
+main .text.left{
+  margin-right: 105px;
 }
 /* /WHITE ROW */
 
 /* GREY ROW */
-main .grey-row{
-  height: 650px; /*DA TOGLIERE*/
-  background-color: grey;/*DA CAMBIARE*/
-}
-
 main .grey{
   display: flex;
   align-items: flex-start;
 }
 
-main .left-col-grey{
-  display: flex;
-  flex-basis: 30%;
-  flex-direction: column;
-}
-
-main .rigth-col-grey{
-  display: flex;
-  flex-basis: 70%;
-  margin-left: 100px;
+main .grey-row{
+  background-color: #f6f6f6;
+  padding: 100px 0;
 }
 /* /GREY ROW */
 
@@ -192,6 +189,10 @@ main .last{
   flex-direction: column;
   justify-content:flex-start;
   align-items: center;
+}
+
+main .last img{
+  width: 100%;
 }
 
 /* FOOTER */
