@@ -64,14 +64,26 @@ p{
   background-color: #ffffff;
 }
 
+.clear:hover{
+ color: #3161e0;
+}
+
 .dark{
   background-color: #23272a;
   color: #ffffff;
 }
 
+.dark:hover{
+  background-color: #3d3d3d;
+}
+
 .violet{
   background-color: #8ea1e1;
   color: #ffffff;
+}
+
+.violet:hover{
+  background-color: #b2bce0;
 }
 
 .btn-bigger{
