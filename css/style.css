@@ -47,8 +47,9 @@ p{
   margin: 0 auto;
   padding: 20px;
 }
+/* /GENERAL */
 
-
+/* UTILITY */
 .debug{
   background-color: rgba(0, 255, 255, 0.253);
   border: 1px solid black;
@@ -138,7 +139,7 @@ nav.menu ul li a:hover{
 }
 
 
-/* MAIN */
+/* JUMBOTRON */
 main .jumbotron{
   background-image: url(../img/jumbo.png);
   height: 560px;
@@ -171,12 +172,22 @@ main .btn-bigger i{
   font-size: 1rem;
   padding-right: 10px;
 }
+/* /JUMBOTRON */
 
+/* OVERLAY WAVE */
 main .overlay img{
   vertical-align: top;
   position: absolute;
   top: -80px;
   width: 100%;
+}
+
+main .overlay-white img{
+  filter: invert(91%) sepia(68%) saturate(2%) hue-rotate(58deg) brightness(108%) contrast(98%);
+}
+
+main .overlay-grey img{
+  filter: invert(99%) sepia(1%) saturate(3265%) hue-rotate(52deg) brightness(131%) contrast(93%);
 }
 
 /* WHITE ROW */
@@ -210,10 +221,6 @@ main .text.right{
 main .text.left{
   margin-right: 105px;
 }
-
-main .overlay-white img{
-  filter: invert(91%) sepia(68%) saturate(2%) hue-rotate(58deg) brightness(108%) contrast(98%);
-}
 /* /WHITE ROW */
 
 /* GREY ROW */
@@ -228,12 +235,9 @@ main .grey-row{
   background-color: #f6f6f6;
   padding: 100px 0;
 }
-
-main .overlay-grey img{
-  filter: invert(99%) sepia(1%) saturate(3265%) hue-rotate(52deg) brightness(131%) contrast(93%);
-}
 /* /GREY ROW */
 
+/* LAST SECTION */
 main .last{
   display: flex;
   flex-direction: column;
@@ -263,6 +267,8 @@ main .last .star h3{
   padding: 40px 40px;
   text-align: center;
 }
+/* /LAST SECTION */
+
 /* FOOTER */
 footer{
   background-color: #23272a;
@@ -341,6 +347,7 @@ footer .top .footer-col ul li a{
 footer .top .footer-col ul li a:hover{
   text-decoration: underline;
 }
+/* /FOOTER TOP */
 
 /* FOOTER BOTTOM */
 footer .bottom{
