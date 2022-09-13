@@ -168,13 +168,22 @@ main .btn-bigger i{
   padding-right: 10px;
 }
 
+main .overlay img{
+  vertical-align: top;
+  position: absolute;
+  top: -80px;
+  width: 100%;
+}
+
 /* WHITE ROW */
 main .white{
   display: flex;
   align-items: flex-start;
+  padding-bottom: 100px;
 }
 
 main .white-row{
+  position: relative;
   background-color: #ffffff;
   padding: 100px 0;
 }
@@ -197,17 +206,27 @@ main .text.right{
 main .text.left{
   margin-right: 105px;
 }
+
+main .overlay-white img{
+  filter: invert(91%) sepia(68%) saturate(2%) hue-rotate(58deg) brightness(108%) contrast(98%);
+}
 /* /WHITE ROW */
 
 /* GREY ROW */
 main .grey{
   display: flex;
   align-items: flex-start;
+  padding-bottom: 100px;
 }
 
 main .grey-row{
+  position: relative;
   background-color: #f6f6f6;
   padding: 100px 0;
+}
+
+main .overlay-grey img{
+  filter: invert(99%) sepia(1%) saturate(3265%) hue-rotate(52deg) brightness(131%) contrast(93%);
 }
 /* /GREY ROW */
 
