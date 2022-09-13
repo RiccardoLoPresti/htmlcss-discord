@@ -48,12 +48,6 @@ p{
   padding: 20px;
 }
 
-.jumbo{
-  max-width: 894px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 50px;
-}
 
 .debug{
   background-color: rgba(0, 255, 255, 0.253);
@@ -73,7 +67,7 @@ p{
 }
 
 .clear:hover{
- color: #3161e0;
+  color: #3161e0;
 }
 
 .dark{
@@ -150,7 +144,17 @@ main .jumbotron{
   height: 560px;
   background-size: cover;
   background-position: center;
-  padding-top: 70px;
+}
+
+main .jumbo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 894px;
+  margin: 0 auto;
+
 }
 
 main .jumbo p{
