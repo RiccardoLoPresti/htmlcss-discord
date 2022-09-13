@@ -321,10 +321,9 @@ footer .top .footer-col ul li a:hover{
 
 /* FOOTER BOTTOM */
 footer .bottom{
-  height: 80px;/*DA CAMBIARE*/
-  border-top: 1px  solid #7289da;/*DA CAMBIARE*/
+  border-top: 1px  solid #7289da;
   padding-top: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 footer .bottom .logo-btn{
