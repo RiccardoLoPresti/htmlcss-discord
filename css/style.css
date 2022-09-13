@@ -6,7 +6,7 @@
 }
 
 body{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h3{
@@ -15,16 +15,10 @@ h3{
 }
 
 .container{
-  max-width: 1180px;
+  max-width: 1200px;
   width: 70%;
   margin: 0 auto;
-  border: 1px solid black;/*DA TOGLIERE*/
-  height: 680px; /*DA TOGLIERE*/
   padding: 20px;
-}
-
-.header{ /*DA TOGLIERE*/
-  height: 100px; /*DA TOGLIERE*/
 }
 
 .jumbo{
@@ -32,14 +26,25 @@ h3{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+}
+
+/* BUTTON */
+.btn{
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  width: 70px;
+}
+
+.clear{
+  background-color: #ffffff;
 }
 
 /* HEADER */
 header{
-  height: 100px;
+  height: 80px;
   background-color: #3161e0;
-  border: 1px solid black;/*DA TOGLIERE*/
   color: #ffffff;
 }
 
@@ -72,11 +77,15 @@ nav.menu ul li a{
   text-decoration: none;
 }
 
+nav.menu ul li a:hover{
+  text-decoration: underline;
+}
+
+
 /* MAIN */
 main section.jumbotron{
   height: 550px;
   background-color: #3161e0;
-  border: 1px solid black;/*DA TOGLIERE*/
 }
 
 main section.jumbotron h1,
@@ -89,7 +98,6 @@ main section.jumbotron p{
 main .white-row{
   height: 680px; /*DA TOGLIERE*/
   background-color: #ffffff;
-  border: 1px solid black;/*DA TOGLIERE*/
 }
 
 main .white{
@@ -120,7 +128,6 @@ main .rigth-col-white{
 main .grey-row{
   height: 650px; /*DA TOGLIERE*/
   background-color: grey;/*DA CAMBIARE*/
-  border: 1px solid black;/*DA TOGLIERE*/
 }
 
 main .grey{
